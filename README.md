@@ -8,6 +8,8 @@ Client can also invoke the generate() method without passing the country code, d
 Examples:
 
 IbanGenerator generator = new IbanGenerator();
+
 generator.generate(); // returns IBAM as a string for randomly selected country.
+
 generator.generate(countryCode); // returns IBAM as a string for the countryCode. Currently supported country codes are DE, AT and NL.
 
